@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="LOGOMATEMATICA.png" type="image/x-icon"/>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./Imagens/LOGO.jpeg" alt="Logo" width="90" height="90" class="d-inline-block align-text-top" id="logo">
+                MATEMÁTICA ESTATÍSTICA
+            </a>
+          </div>
+        </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul_1">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"></a>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home Page</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="propriedades.html">Propriedades </a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="est.html">Estastística Aplicada </a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="calculadora.html">Calculadora </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="mx-auto">
+    <a class="up" href="#"><img src="./Imagens/s.jpg"></a>
+  </main>
+<section id="s1">
+  <div class="container-sm" style="margin-top: 5%;">
+    <h3> Calculadoras</h3>
+    <p class="mt-3">Essas calculadoras estatísticas são ferramentas práticas para realizar cálculos fundamentais em análises de dados, como média, mediana, moda, porcentagem e desvio padrão. A média ajuda a identificar o valor central de um conjunto de dados, a mediana indica o ponto médio em uma distribuição ordenada, e a moda revela os valores mais frequentes. O cálculo de porcentagem é essencial para comparações proporcionais, enquanto o desvio padrão mede a dispersão dos dados em relação à média, destacando sua variabilidade. Essas operações são cruciais em diversas áreas, como finanças, pesquisa científica e planejamento estratégico, permitindo decisões mais embasadas e análises precisas. 
+    </p>
+  </div>
+</dic>
+</section>
+
+  <!-- Calculadora de Média -->
+  <div class="calculator">
+    <h2>Calculadora de Média</h2>
+    <input type="text" id="mean-input" placeholder="Ex: 1, 2, 3, 4">
+    <button class="calculate" onclick="calculateMean()">Calcular</button>
+    <button class="reset" onclick="resetInput('mean-input', 'mean-result')">Apagar</button>
+    <div class="result" id="mean-result"></div>
+  </div>
+
+  <!-- Calculadora de Mediana -->
+  <div class="calculator">
+    <h2>Calculadora de Mediana</h2>
+    <input type="text" id="median-input" placeholder="Ex: 1, 2, 3, 4">
+    <button class="calculate" onclick="calculateMedian()">Calcular</button>
+    <button class="reset" onclick="resetInput('median-input', 'median-result')">Apagar</button>
+    <div class="result" id="median-result"></div>
+  </div>
+
+  <!-- Calculadora de Moda -->
+  <div class="calculator">
+    <h2>Calculadora de Moda</h2>
+    <input type="text" id="mode-input" placeholder="Ex: 1, 2, 2, 3">
+    <button class="calculate" onclick="calculateMode()">Calcular</button>
+    <button class="reset" onclick="resetInput('mode-input', 'mode-result')">Apagar</button>
+    <div class="result" id="mode-result"></div>
+  </div>
+
+  <!-- Calculadora de Porcentagem -->
+  <div class="calculator">
+    <h2>Calculadora de Porcentagem</h2>
+    <input type="number" id="percentage-value" placeholder="Valor">
+    <input type="number" id="percentage-total" placeholder="Total">
+    <button class="calculate" onclick="calculatePercentage()">Calcular</button>
+    <button class="reset" onclick="resetInput('percentage-value', 'percentage-result'); resetInput('percentage-total')">Apagar</button>
+    <div class="result" id="percentage-result"></div>
+  </div>
+
+  <!-- Calculadora de Desvio Padrão -->
+  <div class="calculator">
+    <h2>Calculadora de Desvio Padrão</h2>
+    <input type="text" id="stddev-input" placeholder="Ex: 1, 2, 3, 4">
+    <button class="calculate" onclick="calculateStdDev()">Calcular</button>
+    <button class="reset" onclick="resetInput('stddev-input', 'stddev-result')">Apagar</button>
+    <div class="result" id="stddev-result"></div>
+  </div>
+
+</body>
+   <script src="script.js"></script>
+      <footer class="palmeiras">
+        <br>
+        <p>ETEC Taboão da Serra - Desenvolvimento de Sistemas</p>
+        <p>&copy; Pedro Jacobetti Vincentin Guimarães, João Victor Ferreira Queiroz -2ºA- Todos os direitos reservados <br> &copy; Matheus Rodrigues Quaresma, Sophia Marques Figueiredo da Silva -2ºA- Todos os direitos reservados</p>
+        <br>
+
+       </footer>
+
+      <script src="script.js"></script>
+    </body>
+  </html>

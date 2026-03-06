@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin: 0;
+    background-image: href"fundao";
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin: 0;
+    background-color:aliceblue;
+  }
+  #navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: block;
+    z-index: 99;
+  
+  }
+    #s1{
+      background-color: #f7fafc;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top:0%;
+    }
+  #s11{
+    background-color: #f7fafc;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:0%;
+  }
+  #navbarSupportedContent{
+    margin-left: 24%;
+    font-size: 18px;
+    itens-distance: 6px;
+  }
+  .palmeiras{
+    margin:0;
+    padding:0;
+    width: 100%;
+    text-align:center;
+    background-color:#f7fafc;
+    font-size: 17px;
+  }
+  #s2{
+    background-color: #f7fafc;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .btn-group{
+    background-color:#f7fafc;
+  }
+  #foto {
+    width: 60%;
+    height:350px;
+    border: 1px solid rgb(75, 73, 73);
+    border-radius:40px;
+    display: block;
+    margin-left:20%;
+  }
+  #logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  main .up{
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--anchor_color);
+    border-radius: 40px;
+  }
+  main .up img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  #carouselExample{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 90%;
+  }
+  #figura {
+      overflow-y: scroll;
+      height: 260px;
+      width: 70%;
+      margin: 0 auto;  
+  }
+  input, button {
+    margin: 10px;
+    padding: 10px;
+  }
+  .result {
+    margin-top: 20px;
+  }
+  .calculator {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  #Renato {
+    margin-left:35%;
+  }

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Propriedades - Estatística</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="LOGOMATEMATICA.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./Imagens/LOGO.jpeg" alt="Logo" width="90" height="90" class="d-inline-block align-text-top" id="logo">
+              MATEMÁTICA ESTATÍSTICA
+            </a>
+          </div>
+        </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul_1">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"></a>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="historia.html">História </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="est.html">Estastística Aplicada </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="calculadora.html">Calculadora </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="mx-auto">
+    <a class="up" href="#"><img src="./Imagens/s.jpg"></a>
+  </main>
+
+  <section id="s1">
+    <div class="container-sm" style="margin-top: 5%;">
+      <h3>Princípios da estatística </h3>
+      <p class="mt-3">Veremos, a seguir, os principais conceitos e princípios da estatística. Com base neles, será
+        possível definir conceitos mais sofisticados.
+      </p>
+    </div>
+    <div class="container-sm mt-4">
+      <figure>
+        <img id="foto" src="./Imagens/th.jpeg" alt="foto da etec da agenda 2030">
+      </figure>
+    </div>
+    <div class="container-sm mt-5">
+      <h4> População ou universo estatístico </h4>
+      <p class="mt-3">A população ou universo estatístico é o conjunto formado por todos elementos que participam de um
+        determinado tema pesquisado.
+        <br>
+    </div>
+    <div class="container-sm mt-5">
+      <h5>Exemplos de universo estatístico</h5>
+      a) Em uma cidade, todos os habitantes pertencem ao universo estatístico.
+      <br>
+      b) Em um dado de seis faces, a população é dada pelo número de faces.
+      <br>
+      {1, 2, 3, 4, 5, 6}
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Dado estatístico
+      </h5>
+      <p class="mt-3">O dado estatístico é um elemento que pertence ao conjunto da população, obviamente esse dado deve
+        estar envolvido com o tema da pesquisa.</p>
+    </div>
+      <div>
+      <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr>
+            <th style="border: 1px solid black; padding: 8px;">População</th>
+            <th style="border: 1px solid black; padding: 8px;">Dado estatístico</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px;">Dado de seis faces</td>
+            <td style="border: 1px solid black; padding: 8px;">4</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px;">Campeões Brasileiros de Mountain Bike</td>
+            <td style="border: 1px solid black; padding: 8px;">Henrique Avancini</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <div class="container-sm mt-5">
+      <h5> Amostra
+      </h5>
+      <p class="mt-3">Chamamos de amostra o subconjunto formado com base no universo estatístico. Uma amostra é
+        utilizada quando a população é muito grande ou infinita. Em casos em que coletar todas as informações do
+        universo estatístico é inviável por motivos financeiros ou logísticos, também se faz necessário a utilização de
+        amostras.
+      <p>
+       <p class="mt-3"> A escolha de uma amostra é de extrema importância para uma pesquisa, e ela deve representar de maneira fidedigna
+        a população. Um exemplo clássico da utilização das amostras em uma pesquisa é na realização do censo demográfico
+        do nosso país.
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Variável
+      </h5>
+      <p class="mt-3">Em estatística, a variável é o objeto de estudo, isto é, o tema que a pesquisa pretende estudar.
+        Por exemplo, ao estudar-se as características de uma cidade, o número de habitantes pode ser uma variável, assim
+        como o volume de chuva em determinado período ou até mesmo a quantidade de ônibus para o transporte público.
+        Note que o conceito de variável em estatística é dependente do contexto da pesquisa.
+      </p>
+       <p class="mt-3"> A organização dos dados em estatística dá-se em etapas, como em todo processo de organização. Inicialmente é
+        escolhido o tema a ser pesquisado, em seguida, é pensado o método para a coleta dos dados da pesquisa, e o
+        terceiro passo é a execução da coleta. Após o fim dessa última etapa, faz-se a análise do que foi coletado, e
+        assim, com base na interpretação, busca-se resultados. Veremos, agora, alguns conceitos importantes e
+        necessários para a organização dos dados.
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Rol
+      </h5>
+      <p class="mt-3">Em casos em que os dados podem ser representados por números, ou seja, quando a variável é
+        quantitativa, utiliza-se o rol para organização desses dados. Um rol pode ser crescente ou decrescente. Caso uma
+        variável não seja quantitativa, ou seja, caso seja qualitativa, não é possível utilizar-se o rol, por exemplo,
+        se os dados são sentimentos sobre determinado produto.
+        <br>
+        <br>
+        <b>Exemplo</b>
+        <br>
+        <br>
+        Em uma sala de aula, foram coletadas as alturas dos alunos em metros. São elas: 1,70; 1,60; 1,65; 1,78; 1,71;
+        1,73; 1,72; 1,64.
+        <br>
+        Como o rol pode ser organizado de maneira crescente ou decrescente, segue que:
+        <br>
+        <br>
+        rol: {1,60; 1,64; 1,65; 1,70; 1,71; 1,72; 1,73; 1,78}
+        <br>
+        <br>
+        Observe que, com o rol já montado, é possível encontrar um dado com mais facilidade.
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Tabela de distribuição de frequência
+      </h5>
+      <p class="mt-3">Em casos nos quais há muitos elementos no rol e muitas repetições de dados, o rol torna-se
+        obsoleto, pois a organização desses dados é inviável. Nesses casos, as tabelas e a distribuição de frequências
+        servem como uma excelente ferramenta de organização.
+      </p>
+      <p class="mt-3">  Na tabela de distribuição de frequência absoluta, devemos colocar a frequência em que cada dado aparece, ou
+        seja, a quantidade de vezes que ele aparece.
+      </p>
+       <p class="mt-3"> Vamos construir a tabela de distribuição de frequência absoluta das idades, em anos, dos alunos de uma
+        determinada classe.
+      </p>
+    </div>
+      <div>
+      <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr>
+            <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center; color: red;">Distribuição
+              de frequências absolutas</th>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black; padding: 8px;">Idade</th>
+            <th style="border: 1px solid black; padding: 8px;">Frequência (F)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">8</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">2</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">9</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">12</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">10</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">12</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">11</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">14</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">12</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">1</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">Total
+              (F<sub>T</sub>)</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">41</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <div class="container-sm mt-5">
+      <p class="mt-3">Da tabela podemos obter as seguintes informações: na classe temos 2 alunos com a idade de 8 anos,
+        12 alunos com 9 anos, e mais 12 alunos com 10 anos, e assim sucessivamente, alcançando o total de 41 alunos. Na
+        tabela de distribuição de frequências acumuladas, devemos somar a frequência da linha anterior (na tabela de
+        distribuição de frequência absoluta).
+        <br>
+        <br>
+        Vamos construir a tabela de distribuição de frequência acumulada das idades da mesma classe do exemplo anterior,
+        veja:
+      </p>
+    <div>
+    <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+      <thead>
+        <tr>
+          <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center; color: purple;">Distribuição de frequências acumuladas</th>
+        </tr>
+        <tr>
+          <th style="border: 1px solid black; padding: 8px;">Idade</th>
+          <th style="border: 1px solid black; padding: 8px;">Frequência (F)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">8</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">2</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">9</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">14</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">10</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">26</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">11</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">40</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">12</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center;">41</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">Total (F<sub>T</sub>)</td>
+          <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">41</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <div class="container-sm mt-5">
+      <p class="mt-3">Na tabela de distribuição de frequências relativas, utiliza-se a porcentagem em que cada dado
+        aparece. Novamente faremos os cálculos baseados na tabela de distribuição de frequência absoluta. Sabemos que 41
+        corresponde a 100% dos alunos da classe, logo, para determinar a porcentagem de cada idade, basta dividirmos a
+        frequência da idade por 41 e multiplicarmos o resultado por 100, para, assim, escrevermos na forma de
+        porcentagem.
+        <br>
+        <br>
+      <div id="Renato">
+        2 : 41 = 0,048 · <b>100</b> → 4,8%
+        <br>
+        12 : 41 = 0,292 · <b>100</b> → 29,2%
+        <br>
+        12 : 41 = 0,292 · <b>100</b> → 29,2%
+        <br>
+        14 : 41 = 0,341 · <b>100</b> → 34,1%
+        <br>
+        1 : 41 = 0,024 · <b>100</b> → 2,4%
+      </div>
+      </p>
+    </div>
+      <div>
+      <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr>
+            <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center; color: green;">Distribuição de frequências relativas</th>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black; padding: 8px;">Idade</th>
+            <th style="border: 1px solid black; padding: 8px;">Frequência (F)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">8</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">4,8%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">9</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">29,2%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">10</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">29,2%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">11</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">34,1%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">12</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">2,4%</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">Total (F<sub>T</sub>)</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">100%</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <div class="container-sm mt-5">
+      <h5> Classes
+      </h5>
+      <p class="mt-3">Em casos em que a variável é contínua, isto é, quando ela possui diversos valores, é necessário
+        agrupá-los em intervalos reais. <b><i> Na estatística esses intervalos são chamados de classes. </i></b>
+        <br>
+        <br>
+        Para construir a tabela de distribuição de frequências em classes, devemos colocar os intervalos na coluna da
+        esquerda, com seu devido título, e na coluna da direita, devemos colocar a frequência absoluta de cada um dos
+        intervalos, ou seja, quantos elementos pertencem a cada um deles.
+        <br>
+        <br>
+        <b>Exemplo</b>
+        <br>
+        <br>
+        Altura dos alunos da classe do 3º ano do Ensino Médio de uma escola.
+      </p>
+    </div>
+      <div>
+      <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr>
+            <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center; color: red;">Distribuição de frequência em classes</th>
+          </tr>
+          <tr>
+            <th style="border: 1px solid black; padding: 8px; text-align: center;">Altura (metros)</th>
+            <th style="border: 1px solid black; padding: 8px; text-align: center;">Frequência absoluta (F)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">[1,40; 1,50[</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">1</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">[1,50; 1,60[</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">4</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">[1,60; 1,70[</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">8</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">[1,70; 1,80[</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">2</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">[1,80; 1,90[</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">1</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">Total (F<sub>T</sub>)</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center; font-weight: bold;">16</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <div class="container-sm mt-5">
+      <p class="mt-3">Na tabela de distribuição de frequências relativas, utiliza-se a porcentagem em que cada dado
+        aparece. Novamente faremos os cálculos baseados na tabela de distribuição de frequência absoluta. Sabemos que 41
+        corresponde a 100% dos alunos da classe, logo, para determinar a porcentagem de cada idade, basta dividirmos a
+        frequência da idade por 41 e multiplicarmos o resultado por 100, para, assim, escrevermos na forma de
+        porcentagem.
+      </p>
+      <p class="mt-3"> Analisando a tabela de distribuição de frequência em classes, podemos ver que, na turma do terceiro ano, temos 1
+        estudante que possui altura entre 1,40 m e 1,50 m, assim como temos 4 estudantes com altura entre 1,50 e 1,60 m,
+        e assim sucessivamente. Podemos observar também que os estudantes possuem altura entre 1,40 m e 1,90 m, a
+        diferença entre essas medidas, ou seja, entre a maior altura e a menor altura da amostra, é chamada de
+        amplitude.
+        <br>
+        <br>
+        A diferença entre o limite superior e o limite inferior de uma classe é chamada de amplitude da classe, assim, a
+        segunda, que possui 4 alunos com alturas entre 1,50 metro (inclusos) e 1,60 metro (não inclusos), possui
+        amplitude de:
+        <br>
+        <br>
+      <div id="Renato">
+        1,60 – 1,50
+        <br>
+        <br>
+        <b>0,10 metro</b>
+      </div>
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h4> Medidas de posição </h4>
+      <p class="mt-3">As medidas de posição são utilizadas em casos em que é possível construir-se um rol numérico com
+        os dados ou uma tabela de frequência. Essas medidas indicam a posição dos elementos em relação ao rol. As três
+        principais medidas de posição são:
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5>Média</h5>
+        Considere o rol com os elementos (a1, a2, a3, a4, …, an), a média aritmética desses n elementos é dada por:
+      <div class="container-sm mt-4">
+        <figure>
+          <img id="foto" src="./Imagens/Média.png" alt="Exemplo">
+        </figure>
+      </div>
+      <p class="mt-3">
+        <b>Exemplo</b>
+        <br>
+        <br>
+        Em um grupo de dança, as idades dos integrantes foram coletadas e representadas no rol a seguir:
+        <br>
+        <br>
+        <div id="Renato">
+        (18, 20, 20, 21, 21, 21, 22, 22, 25, 30)
+        </div>
+        <br>
+        <br>
+        Vamos determinar a idade média dos integrantes desse grupo de dança.
+        <br>
+        <br>
+        De acordo com a fórmula, devemos somar todos os elementos e dividir esse resultado pela quantidade de elementos
+        do rol, assim:
+      </p>
+      <div class="container-sm mt-4">
+        <figure>
+          <img id="foto" src="./Imagens/Média 2.png" alt="Exemplo">
+        </figure>
+      </div>
+      <p class="mt-3">
+        Portanto, a idade média dos integrantes é de 22 anos.
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Mediana
+      </h5>
+        <p class="mt-3">A mediana é dada pelo elemento central de um rol que possui uma quantidade ímpar de elementos. Caso o rol possua
+        uma quantidade par de elementos, devemos considerar os dois elementos centrais e calcular a média aritmética
+        entre eles.
+        <br>
+        <br>
+        <b>Exemplo</b>
+        <br>
+        <br>
+        Considere o rol a seguir.
+        <br>
+      <div id="Renato">
+        (2, 2, 3, 3, <b>4</b>, 5, 6, 7, 9)
+      </div>
+      <br>
+      Veja que o elemento 4 divide o rol em duas partes iguais, logo, ele é o elemento central.
+      <br>
+      <br>
+      <b>Exemplo</b>
+      <br>
+      <br>
+      Calcule a mediana das idades do grupo de dança.
+      <br>
+      Lembre-se de que o rol das idades desse grupo de dança é dado por:
+      <br>
+      <br>
+      <div id="Renato">
+      (18, 20, 20, 21, 21, 21, 22, 22, 25, 30)
+      </div>
+      <br>
+      Veja que o número de elementos desse rol é igual a 10, logo, não é possível dividir o rol em duas partes iguais. Assim devemos tomar dois elementos centrais e realizar a média aritmética desses valores.
+      </p>
+      <div class="container-sm mt-4">
+        <figure>
+          <img id="foto" src="./Imagens/media.4.png" alt="Exemplo">
+        </figure>
+      </div>
+    </div>
+    <div class="container-sm mt-5">
+        <h5> Moda
+        </h5>
+       <p class="mt-3">Chamaremos de moda o elemento do rol que possui maior frequência, ou seja, o elemento que mais aparece nele.
+        <br>
+        <br>
+        <b>Exemplo</b>
+        <br>
+        <br>
+        Vamos determinar a moda do rol das idades do grupo de dança.
+        <br>
+        <div id="Renato">
+        (18, 20, 20, 21, 21, 21, 22, 22, 25, 30)
+        </div>
+        <br>
+        O elemento que mais aparece é o 21, portanto, a moda é igual a 21.
+      </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h4> Medidas de dispersão </h4>
+        <p class="mt-3">As medidas de dispersão são utilizadas nos casos em que a média já não é suficiente. Por exemplo, imagine que dois carros tenham percorrido uma média de 40.000 quilômetros. Somente com conhecimento sobre média podemos afirmar que os dois carros andaram determináveis quilômetros cada um, certo?
+        <br>
+        <br>
+        No entanto, imagine que um dos carros tenha percorrido 79.000 quilômetros, e o outro, 1.000 quilômetros, veja que somente com as informações sobre média não é possível realizar afirmações com precisão.
+        <br>
+        <br>
+        As medidas de dispersão nos indicarão o quanto os elementos de um rol numérico estão afastados da média aritmética. Temos duas importantes medidas de dispersão:
+        </p>
+    </div>
+    <div class="container-sm mt-5">
+      <h5> Variância (σ2)
+      </h5
+      <p class="mt-3">
+        Vamos chamar de variância a média aritmética dos quadrados da diferença entre cada elemento do rol e a média aritmética desse rol. A variância é representada por: σ2.
+        <br>
+        <br>
+        Considere o rol (x1, x2, x3, …, xn) e que ele possua média aritméticax. A variância é dada por:
+      </p>
+      <div class="container-sm mt-4">
+          <figure>
+            <img id="foto" src="./Imagens/media.5.png" alt="Exemplo">
+          </figure>
+      </div>
+    </div>
+    <div class="container-sm mt-5">
+        <h5> Desvio-padrão (σ)
+        </h5
+        <p class="mt-3">
+          O desvio-padrão é dado pela raiz da variância, ele nos indica o quanto um elemento está disperso em relação à média. O desvio padrão é denotado por σ.
+          <br>
+          <br>
+          <b>Exemplo</b>
+          <br>
+          <br>
+          Determine o desvio-padrão do conjunto de dados (4, 7, 10). Veja que, para isso, é necessário determinar-se primeiro a variância, e que, para tanto, é necessário antes o cálculo da média desses dados.
+        </p>
+        <div class="container-sm mt-4">
+            <figure>
+              <img id="foto" src="./Imagens/media.6.png" alt="Exemplo">
+            </figure>
+        </div>
+      <p class="mt-3">
+        Substituindo esses dados na fórmula da variância, temos:
+      </p>
+      <div class="container-sm mt-4">
+          <figure>
+            <img id="foto" src="./Imagens/media.7.png" alt="Exemplo">
+          </figure>
+      </div>
+      <p class="mt-3">
+        Para determinar o desvio-padrão, devemos extrair a raiz da variância.
+      </p>
+      <div class="container-sm mt-4">
+          <figure>
+            <img id="foto" src="./Imagens/media.8.png" alt="Exemplo">
+          </figure>
+      </div>
+    </div>
+  </section>
+    <script src="script.js"></script>
+    <footer class="palmeiras">
+      <br>
+      <p>ETEC Taboão da Serra - Desenvolvimento de Sistemas</p>
+      <p>&copy; Pedro Jacobetti Vincentin Guimarães, João Victor Ferreira Queiroz -2ºA- Todos os direitos reservados
+        <br> &copy; Matheus Rodrigues Quaresma, Sophia Marques Figueiredo da Silva -2ºA- Todos os direitos reservados
+      </p>
+      <br>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
